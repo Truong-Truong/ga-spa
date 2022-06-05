@@ -329,6 +329,13 @@ require ABSPATH . WPINC . '/block-supports/layout.php';
 require ABSPATH . WPINC . '/block-supports/spacing.php';
 require ABSPATH . WPINC . '/block-supports/typography.php';
 
+// woo-rest-api
+require ABSPATH . WPINC . '/woo-rest-api/class-wp-woo-rest-server.php';
+require ABSPATH . WPINC . '/woo-rest-api/class-wp-woo-rest-response.php';
+require ABSPATH . WPINC . '/woo-rest-api/class-wp-woo-rest-request.php';
+require ABSPATH . WPINC . '/woo-rest-api/Controller/class-wp-woo-rest-controller.php';
+require ABSPATH . WPINC . '/woo-rest-api/Controller/class-wp-woo-user-controller.php';
+
 $GLOBALS['wp_embed'] = new WP_Embed();
 
 // Load multisite-specific files.
